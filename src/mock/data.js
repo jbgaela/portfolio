@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jean Benedict C. Gaela Portfolio', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my portfolio', // e.g: Welcome to my website
+  title: "Jean Benedict C. Gaela | Web & Mobile Developer | DevOps", // e.g: 'Name | Developer'
+  lang: "en", // e.g: en, es, fr, jp
+  description: "Welcome to my portfolio", // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,14 +17,15 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'gradPic3.jpg',
-  paragraphOne: `A Software Engineer with 2 years of experience
-  in Web & Mobile development and hands on
-  experience with architecting/automating mission critical deployments in infrastructure. Proficient with configuration management
-  tools, and in developing CI/CD pipelines. `,
+  img: "gradPic3.jpg",
+  paragraphOne: `Hi there! I'm Jean Benedict C. Gaela, a DevOps Engineer with a passion for building efficient, scalable solutions in the cloud and containerized environments. With expertise in Kubernetes, Red Hat OpenShift, Docker, and automation tools, I aim to streamline development and deployment processes.
+
+  In this space, you'll find my professional journey, projects that showcase my skills, and insights into the tools and technologies I use to create impactful solutions. Whether you're here to learn more about my work, collaborate on a project, or just explore, I hope you find value and inspiration.
+
+  Thanks for visiting, and feel free to reach out—I’d love to connect! `,
   paragraphTwo: ``,
-  paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  paragraphThree: "",
+  resume: "", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -36,7 +37,7 @@ export const projectsData = [
     info: 'An ecommerce App made in Reactjs, Nodejs, and MongoDB',
     info2: '',
     url: '#',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/jbgaela/EcommerceAppFrontEnd', 
   },
   {
     id: nanoid(),
@@ -45,7 +46,7 @@ export const projectsData = [
     info: 'A Covid 19 Tracker Made with Reactjs',
     info2: '',
     url: 'https://jbcovid19tracker.netlify.app/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/jbgaela/COVID-19-Tracker', 
   },
   {
     id: nanoid(),
@@ -54,7 +55,7 @@ export const projectsData = [
     info: 'A meme generator made with React native',
     info2: '',
     url: '#',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/jbgaela/MemeGenerator', 
   },
 ];
 
